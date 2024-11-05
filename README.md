@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Projecto en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projecto ha sido creado usando React para la clase de Innovacion y Emprendimiento I en la Universidad Simon Bolivar - Barranquilla
 
-## Available Scripts
+## Only Script Needed
 
 In the project directory, you can run:
 
