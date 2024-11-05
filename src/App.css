@@ -1,0 +1,171 @@
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #F7F7F5; /* Cambiar el color de fondo */
+  border-bottom: none; /* Eliminar la línea */
+}
+
+
+.navbar-brand {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Agrega estas clases en tu App.css */
+
+.brand-prime {
+  color: #FF5731;
+  font-family: 'Koulen', sans-serif;
+}
+
+.brand-testing {
+  color: black; 
+  font-family: 'Koulen', sans-serif;
+}
+
+.brand-testing-bt {
+  color: white; 
+  font-family: 'Koulen', sans-serif;
+}
+
+/* Botón de unirse */
+.btn-login {
+  background-color: #D9D9D9;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 40px;
+  font-family: 'Koulen', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-login:hover {
+  background-color: #a9a9a9; /* Gris oscuro */
+}
+
+/* Botón de iniciar sesión */
+.btn-join {
+  background-color: #FF5731;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 40px;
+  font-family: 'Koulen', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-join-2 {
+  background-color: #FF5731;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 40px;
+  font-family: 'Koulen', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-join:hover {
+  background-color: #C0392B; /* Tono más oscuro de rojo */
+}
+
+main {
+  padding: 20px;
+  background-color: #f7f7f5; /* Cambia el color de fondo a f7f7f5 */
+  font-family: 'Koulen', sans-serif; /* Aplicar fuente Koulen al contenido de main */
+}
+
+.descripcion-home {
+  color: #0000004D;
+}
+
+.descripcion-opciones-home {
+  color: #0000004D;
+  font-size: 24px;
+}
+
+.opciones-logos {
+  text-align: center; /* Centra el texto y los logos */
+  margin-top: 20px; /* Espaciado superior */
+}
+
+.logos-container {
+  display: flex; /* Usa flexbox para alinear los logos en fila */
+  justify-content: center; /* Centra los logos horizontalmente */
+  align-items: center; /* Alinea verticalmente los logos */
+  gap: 20px; /* Espaciado entre logos */
+  margin-top: 10px; /* Espaciado superior entre el título y los logos */
+}
+
+.logos-container img {
+  width: 150px; /* Ajusta el tamaño de los logos */
+  height: 150px; /* Establece una altura fija para todos los logos */
+  object-fit: contain; /* Asegura que la imagen mantenga la proporción */
+  margin-top: 10px; /* Ajusta este margen si es necesario */
+}
+
+.main-content {
+  padding: 80px;
+  margin: 0 auto;
+}
+
+.premium-services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.text-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.premium {
+  color: #8a2be2;
+}
+
+.descripcion-home {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn-join {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.image-content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.app-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Existing styles for opciones-logos section */
